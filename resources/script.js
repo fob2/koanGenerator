@@ -34,4 +34,13 @@ function koanGenerator(){
     }
 }
 
-console.log(koanGenerator())
+
+const button = document.getElementById("button")
+button.addEventListener("click", () => {
+    document.getElementById("quote").innerHTML = koanGenerator();
+})
+
+
+
+
+

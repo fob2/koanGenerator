@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(resources/universe.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-family: 'Amatic SC', cursive, Helvetica;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
